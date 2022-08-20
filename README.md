@@ -24,6 +24,5 @@ Repeat N times or untill goal is reached:
         newPopulation.add(child1)
         newPopulation.add(child2)
     population <- newPopulation
-  
 ```
 
