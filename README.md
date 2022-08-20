@@ -24,4 +24,8 @@ Repeat N times or untill goal is reached:
         newPopulation.add(child2)
     population <- newPopulation
 ```
+## setup
+Make sure that `numpy` and `tkinter`. Use `pip install numpy` and `pip install tkinter`; if they're not installed they will be downloaded and installed.
+Then, run `python Runner.py 100 10 20 20` you will be able to see something like this:
+
 
