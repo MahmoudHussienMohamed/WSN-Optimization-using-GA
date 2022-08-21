@@ -31,7 +31,7 @@ Then, run `python Runner.py 100 10 20 20` you will be able to see something like
 ![](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/Images/Output.jpg)
 <br />
 
-## Project specfication and decription:
+## Project specfication and description:
 Applying Genetic Algorithm concepts to find the best placement for sensors in Sensor netowrk. Each sensor had position (`X`, `Y`) and `radius` descriping its domain. We represent sensor as `chromosome` or string of features to manipulate. After all the process is done we can visulaize generations to see how it did. 
 ## Code Walkthrough and Logic
 There're three Modules:
@@ -61,5 +61,5 @@ GUI tkinter window to display sensors as generations given **GeneticAlgorithm** 
 - Perfomance is pretty bad so, enhancements are coming soon.
 
 ## Refrences:
-[Machine Learning Mastery](https://machinelearningmastery.com/simple-genetic-algorithm-from-scratch-in-python/)
+[Machine Learning Mastery article](https://machinelearningmastery.com/simple-genetic-algorithm-from-scratch-in-python/) from the fascinating Jason Brownlee.
 
