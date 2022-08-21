@@ -7,7 +7,7 @@ Sensor placement in a network using **Genetic Algorithm** properties.
 ## How GA simulates natural selection mechanism?
 - At first, We start with initial random `population`.
 - Fittest ones (highest `scores`) have higher probability to live and breed.
-- Each couple from fittest ones (`parents`) breed and produce children with mixed features from both of them.
+- Each couple from fittest ones (`parents`) breed and produce children with mixed features from both of them. (see [CrossOver.jpg][https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/Images/CrossOver.jpg])
 - Weak individuals extinects and replaced with better `generation`.
 - repeat the process untill the goal reached.
 ### Pseudo Code:
