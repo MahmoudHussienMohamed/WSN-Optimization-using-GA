@@ -10,8 +10,7 @@ Sensor placement in a network using **Genetic Algorithm** properties.
 - Each couple from fittest ones (`parents`) breed and produce children with mixed features from both of them.
 - Weak individuals extinects and replaced with better `generation`.
 - repeat the process untill the goal reached.
-<br />
-Pseudo Code:
+### Pseudo Code:
 ```
 population <- Random Population
 Repeat N times or untill goal is reached:
