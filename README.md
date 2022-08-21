@@ -34,11 +34,11 @@ Then, run `python Runner.py 100 100 20 20` you will be able to see something lik
 ## Project specfication and description:
 Applying Genetic Algorithm concepts to find the best placement for sensors in Sensor netowrk. Each sensor had position (`X`, `Y`) and `radius` descriping its domain. We represent sensor as `chromosome` or string of features to manipulate. After all the process is done we can visulaize generations to see how it did. 
 ## Code Walkthrough and Logic
-There're three Modules:
+There're three main Modules:
 - [GeneticAlgorithm.py](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/GeneticAlgorithm.py): Which contains all the logic for genetic algorithm,
 - [CoverageArea.py](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/CoverageArea.py): to calculate the objective function or fitness score ,
-- [DrawSensors.py](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/DrawSensors.py): handles GUI and buttons to display sensors
-and driver code:
+- [DrawSensors.py](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/DrawSensors.py): handles GUI and buttons to display sensors,  
+And driver code:
 - [Runner.py](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/Runner.py): firing the **GeneticAlgorithm** Module and call **DrawSensors** with GA object. 
 ### GeneticAlgorithm:
 There's main class `GeneticAlgorithm` has bunch of attributes: `iterationsNo` or generation number, `populationNo` population size, `bitsNo` number of bits per individual in population, `cross_over_rate` can be considered as the probability to have a crossover, `mutation_rate` probability for mutation to occure, `sensors_radius` the radius of the sensor caoverage, `population` sensors locations, `best_gen` fittest generation index, `best_score` highest covered area so far, `generations` list of populations (society within an era) and finaly, `coverage` list of total coverage areas per generation. 
