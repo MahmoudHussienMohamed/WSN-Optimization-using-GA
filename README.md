@@ -25,7 +25,7 @@ Repeat N times or untill goal is reached:
     population <- newPopulation
 ```
 ## setup
-Make sure that `numpy` and `tkinter`. Use `pip install numpy` and `pip install tkinter`; if they're not installed they will be downloaded and installed.
+Make sure that `numpy` and `tkinter` are installed. Use `pip install numpy` and `pip install tkinter`; if they're not installed they will be downloaded and installed.
 Then, run `python Runner.py 100 10 20 20` you will be able to see something like this:
 <br /><br />
 ![](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/Images/Output.jpg)
