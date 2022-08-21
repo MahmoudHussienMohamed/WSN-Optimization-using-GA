@@ -38,15 +38,11 @@ There're three Modules:
 - [GeneticAlgorithm.py](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/GeneticAlgorithm.py): Which contains all the logic for genetic algorithm,
 - [CoverageArea.py](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/CoverageArea.py): to calculate the objective function or fitness score ,
 - [DrawSensors.py](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/DrawSensors.py): handles GUI and buttons to display sensors
-<br />
 and driver code:
 - [Runner.py](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA/blob/main/Runner.py): firing the **GeneticAlgorithm** Module and call **DrawSensors** with GA object. 
-<br />
 ### GeneticAlgorithm:
 There's main class `GeneticAlgorithm` has bunch of attributes: `iterationsNo` or generation number, `populationNo` population size, `bitsNo` number of bits per individual in population, `cross_over_rate` can be considered as the probability to have a crossover, `mutation_rate` probability for mutation to occure, `sensors_radius` the radius of the sensor caoverage, `population` sensors locations, `best_gen` fittest generation index, `best_score` highest covered area so far, `generations` list of populations (society within an era) and finaly, `coverage` list of total coverage areas per generation. 
-<br />
 And some methods such as `init_population` which initiate population, `objective` to calculate the fitness score, `select` to select fit individual, `cross_over` to reproduce two children from two selected parents, `mutation` to mutate random feature for child and main method `start` which fires logic by calling all of them.
-<br />
 
 As I discussed about [Genetic Algorithm](https://github.com/MahmoudHussienMohamed/WSN-Optimization-using-GA#how-ga-simulates-natural-selection-mechanism) we apply steps as follow:
 - Initiate random population.
