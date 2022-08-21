@@ -60,6 +60,10 @@ Simple module to calculate the total coverage area for sensors and corresponding
 ### DrawSensors:
 GUI tkinter window to display sensors as generations given **GeneticAlgorithm** object *GA*. See [this](https://docs.python.org/3/library/tkinter.html) if unfamiliar with tkinter.
 
+## Notes:
+- This project may not be the most suitable or direct application of Genetic Algorithm but nice start to understand.
+- Perfomance is pretty bad so, enhancements are coming soon.
 
-
+## Refrences:
+[Machine Learning Mastery](https://machinelearningmastery.com/simple-genetic-algorithm-from-scratch-in-python/)
 
