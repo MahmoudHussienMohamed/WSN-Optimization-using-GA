@@ -40,7 +40,6 @@ class GeneticAlgorithm:
         return bitstring
 
     def start(self):
-        self.population = [randint(0, 2, self.bitsNo).tolist() for _ in range(self.populationNo)]
         self.best_gen, self.best_score = 0, 0
         self.generations = [self.population]
         self.coverage = []
