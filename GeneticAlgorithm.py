@@ -34,8 +34,11 @@ class GeneticAlgorithm:
         return child1, child2
 
     def mutation(self, bitstring):
+        random_values = rand(len(bitstring))
+        mutation_mask = random_values < self.mutation_rate
+        # Use mutation_mask to invert the bits in the bitstring
         for i in range(len(bitstring)):
-            if rand() < self.mutation_rate:
+            if mutation_mask[i]:
                 bitstring[i] = 1 - bitstring[i]
         return bitstring
 
